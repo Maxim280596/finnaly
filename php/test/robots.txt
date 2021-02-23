@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /for-partners/
+Disallow: /for-clients/ 
+Disallow: /brief/ 
