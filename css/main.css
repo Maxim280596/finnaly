@@ -4356,6 +4356,22 @@ a.gallery__item__link:hover{
 
 }
 
+.change-lang {
+    background:transparent;
+    border:none;
+}
+option{
+    font-size: 13px;
+    font-weight: 600;
+    color: #eee;
+    letter-spacing: .5px;
+   
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background: #ff8dff;
+  }
+
 
 
 @media screen and (max-width: 768px) {

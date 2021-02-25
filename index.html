@@ -28,8 +28,9 @@
     <link rel="preload"   href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap">
     <link rel="preload"  href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800&display=swap">
     <!-- Plugins -->
-    <link rel="stylesheet" href="css/main.css?ver=131">
     <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css?ver=131">
+    
     
     <!-- Core Style Css -->
     
@@ -128,29 +129,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
+                    <a class="lng-home nav-link active" href="#" data-scroll-nav="0">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="1">About</a>
+                    <a class="nav-link lng-about" href="#" data-scroll-nav="1">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="2">Portfolio</a>
+                    <a class="nav-link lng-portfolio" href="#" data-scroll-nav="2">Portfolio</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="3">Packages</a>
+                    <a class="nav-link lng-packages" href="#" data-scroll-nav="3">Packages</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="4">Team</a>
+                    <a class="nav-link lng-team" href="#" data-scroll-nav="4">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="5">Contact Us</a>
+                    <a class="nav-link lng-contact" href="#" data-scroll-nav="5">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <select class="change-lang nav-link">
+                        <option value="en" selected>EN</option>
+                        <option value="ua">UA</option>
+                    </select>
                 </li>
             </ul>
         </div>
 
          <a href="https://calendly.com/beemloop-com/15min" class="modal-link">
-            <span>Get online consultation</span>
+            <span class="lng-consultation">Get online consultation</span>
         </a>
 
     </div>
@@ -183,18 +190,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="cd-headline clip h1">
                                     <!-- <span class="blc">experts in </span> -->
                                     <span class="cd-words-wrapper1">
-                                              <b class="is-visible">We explain </b>
+                                              <b class="is-visible lng-we">We explain </b>
                                               <br class="non-visible">
-                                              <b class="is-visible">your product </b>
+                                              <b class="is-visible lng-you">your product </b>
                                             <br class="non-visible">
-                                              <b class="is-visible">in 90 seconds</b>
+                                              <b class="is-visible lng-in">in 90 seconds</b>
                                              <!-- <b>EXPLAINER VIDEOS</b>-->
                                             </span>
                                 </div>
-                                <p class="pheader">More than 500 of our clients got their products explained using videos that we created.<br> In just 90 seconds customer will know everything about your product.</p>
+                                <p class="pheader lng-more">More than 500 of our clients got their products explained using videos that we created.<br> <p class="lng-br">In just 90 seconds customer will know everything about your product.</p></p>
                                 <a class="popup-with-form butn butn-bg" href="#standard"
                                            onclick="gtag('event', 'click-on-popup2', {'event_category': '2-min-video'});">
-                                    <span>Get A Quote</span>
+                                    <span class="lng-quote">Get A Quote</span>
                                 </a>
                             </div>
                         </div>
@@ -242,6 +249,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="slideshow-container">
         <div class="owl-videos navigation">
             <div class="owl-carousel owl-theme">
+                <li onclick="videoUrl('https://player.vimeo.com/video/513434926?title=0&byline=0&portrait=0')">
+                    <img  data-src ="img/portfolio-new/amazon.webp">
+                    <div class="img_text df">
+                        <p>Amazon Go</p>
+                        <div class="df img_span">
+                            <span>Characters</span>
+                        </div>
+                    </div>
+                </li>
                 <li onclick="videoUrl('https://player.vimeo.com/video/442286278?title=0&byline=0&portrait=0')">
 
                     <picture>
@@ -257,6 +273,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                     </div>
                 </li>
+                
                 <li onclick="videoUrl('https://player.vimeo.com/video/294569571?title=0&byline=0&portrait=0')">
                     <img data-src = "img/portfolio-new/thebar.webp">
                     <div class="img_text df">
@@ -405,18 +422,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <p>AllocateRite</p>
                     </div>
                 </li>
-                <li onclick="videoUrl('https://player.vimeo.com/video/430309051?title=0&byline=0&portrait=0')">
-                    <img data-src ="img/portfolio-new/animationstyles.webp">
-                    <div class="img_text df">
-                        <p>Many Animation Styles</p>
-                    </div>
-                </li>
-                <li onclick="videoUrl('https://player.vimeo.com/video/425115992?title=0&byline=0&portrait=0')">
-                    <img  data-src = "img/portfolio-new/attachments.webp">
-                    <div class="img_text df">
-                        <p>Inmediata SecureTrack</p>
-                    </div>
-                </li>
                 <li onclick="videoUrl('https://player.vimeo.com/video/402852896?title=0&byline=0&portrait=0')">
                     <img  data-src ="img/portfolio-new/rapidglobal.webp">
                     <div class="img_text df">
@@ -453,6 +458,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                     </div>
                 </li>
+                
             </div>
         </div>
     </div>
@@ -1388,8 +1394,11 @@ wa widget -->
 </noscript>
 
 <!-- All plugins.min -->
+<script src="js/lang.js"></script>
+<script src="js/translate.js"></script>
 <script src="js/libs.min.js"></script>
 <script src="js/main.js?ver=5"></script>
+
 <script src="js/jquery.instagramFeed.js"></script>
 <!-- custom scripts -->
 <script src="js/youtube_video.js?ver=22"></script>
