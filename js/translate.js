@@ -18,7 +18,8 @@ function changeLanguage() {
         location.reload();
     }
     select.value = hash;
-    document.querySelector('title').innerHTML = langObj['unit'][hash];
+    // document.querySelector('title').innerHTML = langObj['unit'][hash];
+   
 
     for (let key in langObj) {
         let elem = document.querySelector('.lng-' + key);

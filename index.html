@@ -228,11 +228,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="col-sm-12">
                 <div class="mission">
                     <div class="section-head mb-30 pt-80">
-                        <div class="h4"><span>How do we</span><br>
-                            do it?
+                        <div class="h4"><span class="lng-do">How do we</span><br>
+                            <div class="lng-doit">do it?</div>
                         </div>
                     </div>
-                    <p >We have more than 2 years of team work, which has helped us create culture and discipline which is needed at <span class="text-underline">every step of production.</span> We work 6 days a week at our 7 offices spread across 3 major cities.</p>
+                    <p class="lng-video" >We have more than 2 years of team work, which has helped us create culture and discipline which is needed at <span class="lng-every text-underline">every step of production.</span> We work 6 days a week at our 7 offices spread across 3 major cities.</p>
                 </div>
             </div>
 
@@ -478,10 +478,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <div class="section-head col-sm-12">
                 <div class="h4">
-                    <span>Our</span><br>
-                    Packages
+                    <span class="lng-our">Our</span><br>
+                    <div class="lng-pack">Packages</div>
                 </div>
-                <p>
+                <p class="lng-hope">
                     We hope you can find the perfect package or you can contact us to consult you on this.
                 </p>
             </div>
@@ -490,22 +490,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="item text-center mb-md50">
                     <div class="type" style="margin-bottom:10px;">
                         <span class="icon"><i class="icofont icofont-briefcase"></i></span>
-                        <div class="h4">Small Business</div>
+                        <div class="h4 lng-small-business">Small Business</div>
                     </div>
 
 
 
                     <div class="features">
                         <ul>
-                            <li class="excluded">Scriptwriting</li>
-                            <li class="excluded">Storyboard</li>
-                            <li class="included">Stock Illustrations</li>
-                            <li class="excluded">Animatic</li>
-                            <li class="included">Simple Animation</li>
-                            <li class="included">2D Logo Animation</li>
-							<li class="included"><a class="pink-color" href="voiceoverartists.html">Professional Voiceover</a></li>
-                            <li class="included">Background Music & SFX</li>
-							<li class="included">5 Revisions</li>
+                            <li class="excluded lng-option">Scriptwriting</li>
+                            <li class="excluded lng-option1">Storyboard</li>
+                            <li class="included lng-option2">Stock Illustrations</li>
+                            <li class="excluded lng-option3">Animatic</li>
+                            <li class="included lng-option4">Simple Animation</li>
+                            <li class="included lng-option5">2D Logo Animation</li>
+							<li class="included"><a class="pink-color lng-option6" href="voiceoverartists.html">Professional Voiceover</a></li>
+                            <li class="included lng-option7">Background Music & SFX</li>
+							<li class="included lng-option8">5 Revisions</li>
                         </ul>
                     </div>
 					<div>
@@ -518,7 +518,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="order">
                         <a class="popup-with-form" href="#basic"
                            onclick="gtag('event', 'click-on-popup1', {'event_category': '1-min-video'});">
-                            <span>Get A Quote</span>
+                            <span class="lng-option9">Get A Quote</span>
                         </a>
                     </div>
                 </div>
@@ -526,12 +526,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <form id="basic" class="white-popup-block mfp-hide" action="php/basic.php" method="POST"
                   enctype="multipart/form-data">
-                <div class="h4">Small Business</div>
-                <label>Name:</label>
+                <div class="h4 lng-option10">Small Business</div>
+                <label class="lng-option11">Name:</label>
                 <input type="text" placeholder="" required name="client_name" pattern="^[a-zA-Z]+$+' '"/>
-                <label>E-mail:</label>
+                <label class="lng-option12">E-mail:</label>
                 <input type="email" placeholder="" required name="cleint_email"/>
-                <label>Message:</label>
+                <label class="lng-option13">Message:</label>
                 <textarea name="client_message"></textarea>
 
                 <input type="file" name="file[]" id="file" class="inputfile"
@@ -539,7 +539,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 <label for="file" id="label-add">
                     <div id="description-lable">
-                        <p> Attach file</p>
+                        <p class="lng-option14"> Attach file</p>
                         <p id="name-file-attach1"></p>
                         <img  data-src = "img/attach-3.png" alt="download">
                     </div>
@@ -547,7 +547,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <input type="hidden" name="validation" value=""/>
                 <button type="submit" class=""
                         onclick="gtag('event', 'send-form1', {'event_category': '1-min-video'});">
-                    <span>Get A Quote</span></button>
+                    <span class="lng-option15">Get A Quote</span></button>
                 <script>
                     document.getElementById("basic").addEventListener('submit', function () {
                         document.cookie = "profile_viewer_uid=" + document.getElementsByName('client_name')[0].value + document.getElementsByName('cleint_email')[0].value + '@nti_sp@m';
@@ -559,20 +559,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="item text-center active mb-md50 price-click-popup">
                     <div class="type" style="margin-bottom:10px;">
                         <span class="icon"><i class="icofont icofont-rocket-alt-2"></i></span>
-                        <div class="h4">Medium Business</div>
+                        <div class="h4 lng-medium">Medium Business</div>
                     </div>
 
                      <div class="features">
                         <ul>
-                            <li class="included">Scriptwriting</li>
-                            <li class="included">Storyboard</li>
-                            <li class="included">Unique Illustrations</li>
-                            <li class="excluded">Animatic</li>
-                            <li class="included">Custom Animation</li>
-                            <li class="included">2D Logo Animation</li>
-							<li class="included"><a class="pink-color" href="voiceoverartists.html">Professional Voiceover</a></li>
-                            <li class="included">Background Music & SFX</li>
-							<li class="included">7 Revisions</li>
+                            <li class="included lng-medium1">Scriptwriting</li>
+                            <li class="included lng-medium2">Storyboard</li>
+                            <li class="included lng-medium3">Unique Illustrations</li>
+                            <li class="excluded lng-medium4">Animatic</li>
+                            <li class="included lng-medium5">Custom Animation</li>
+                            <li class="included lng-medium6">2D Logo Animation</li>
+							<li class="included"><a class="pink-color lng-medium7" href="voiceoverartists.html">Professional Voiceover</a></li>
+                            <li class="included lng-medium8">Background Music & SFX</li>
+							<li class="included lng-medium9">7 Revisions</li>
                         </ul>
                     </div>
 					<div>
@@ -585,7 +585,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="order">
                         <a class="popup-with-form" href="#standard"
                            onclick="gtag('event', 'click-on-popup2', {'event_category': '2-min-video'});">
-                            <span>Get A Quote</span>
+                            <span class="lng-medium10">Get A Quote</span>
                         </a>
                     </div>
                 </div>
@@ -593,12 +593,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <form id="standard" class="white-popup-block mfp-hide" action="php/standart.php" method="POST"
                   enctype="multipart/form-data">
-                <div class="h4">Medium Business</div>
-                <label>Name:</label>
+                <div class="h4 lng-medium11">Medium Business</div>
+                <label class="lng-medium12">Name:</label>
                 <input type="text" placeholder="" required name="client_name" pattern="^[a-zA-Z]+$+' '"/>
-                <label>E-mail:</label>
+                <label class="lng-medium13">E-mail:</label>
                 <input type="email" placeholder="" required name="cleint_email"/>
-                <label>Message:</label>
+                <label class="lng-medium14">Message:</label>
                 <textarea name="client_message"></textarea>
 
                 <input type="file" name="file2[]" id="file2" class="inputfile"
@@ -606,7 +606,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 <label for="file2" id="label-add2">
                     <div id="description-lable2">
-                        <p> Attach file</p>
+                        <p class="lng-medium15"> Attach file</p>
                         <p id="name-file-attach2"></p>
                         <img  data-src= "img/attach-3.png" alt="download">
                     </div>
@@ -615,7 +615,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <input type="hidden" name="validation" value=""/>
                 <button type="submit" class=""
                         onclick="gtag('event', 'send-form2', {'event_category': '2-min-video'});">
-                    <span>Get A Quote</span></button>
+                    <span class="lng-medium16">Get A Quote</span></button>
                 <script>
                     document.getElementById("standard").addEventListener('submit', function () {
                         document.cookie = "profile_viewer_uid=" + document.getElementsByName('client_name')[0].value + document.getElementsByName('cleint_email')[0].value + '@nti_sp@m';
@@ -627,7 +627,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="item text-center">
                     <div class="type" style="margin-bottom:10px;">
                         <span class="icon"><i class="icofont icofont-diamond"></i></span>
-                        <div class="h4">Large Business</div>
+                        <div class="h4 lng-large">Large Business</div>
                     </div>
 
 
@@ -635,17 +635,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="features">
                         <ul>
 
-                            <li class="included">Outstanding Scriptwriting</li>
-                            <li class="included">Storyboard</li>
-                            <li class="included">Hand Drawn Illustrations</li>
-                            <li class="included">Animatic</li>
-                            <li class="included">Complex Custom Animation</li>
-							<li class="included">Any Kind Logo Animation</li>
-                            <li class="included"><a class="pink-color" href="voiceoverartists.html">Professional Voiceover</a></li>
-                            <li class="included">Author’s Music & SFX</li>
-                            <li class="included">10 Revisions</li>
-							<li class="included">Art Direction </li>
-							<li class="included">Individual Style Creation</li>
+                            <li class="included lng-large1">Outstanding Scriptwriting</li>
+                            <li class="included lng-large2">Storyboard</li>
+                            <li class="included lng-large3">Hand Drawn Illustrations</li>
+                            <li class="included lng-large4">Animatic</li>
+                            <li class="included lng-large5">Complex Custom Animation</li>
+							<li class="included lng-large6">Any Kind Logo Animation</li>
+                            <li class="included lng-large7"><a class="pink-color" href="voiceoverartists.html">Professional Voiceover</a></li>
+                            <li class="included lng-large8">Author’s Music & SFX</li>
+                            <li class="included lng-large9">10 Revisions</li>
+							<li class="included lng-large10">Art Direction </li>
+							<li class="included lng-large11">Individual Style Creation</li>
 
                         </ul>
                     </div>
@@ -659,7 +659,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="order">
                         <a class="popup-with-form" href="#premium"
                            onclick="gtag('event', 'click-on-popup3', {'event_category': '3-min-video'});">
-                            <span>Get A Quote</span>
+                            <span class="lng-large12">Get A Quote</span>
                         </a>
                     </div>
                 </div>
@@ -667,18 +667,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- ===================== Start popup form ===================== -->
             <form id="premium" class="white-popup-block mfp-hide" action="php/premium.php" method="POST"
                   enctype="multipart/form-data">
-                <div class="h4">Large Business</div>
-                <label>Name:</label>
+                <div class="h4 lng-large13">Large Business</div>
+                <label class="lng-large14">Name:</label>
                 <input type="text" placeholder="" required name="client_name" pattern="^[a-zA-Z]+$+' '"/>
-                <label>E-mail:</label>
+                <label class="lng-large15">E-mail:</label>
                 <input type="email" placeholder="" required name="cleint_email"/>
-                <label>Message:</label>
+                <label class="lng-large16">Message:</label>
                 <textarea name="client_message"></textarea>
                 <input type="file" name="file3[]" id="file3" class="inputfile"
                        data-multiple-caption="{count} files selected" multiple/>
                 <label for="file3" id="label-add3">
                     <div id="description-lable3">
-                        <p> Attach file</p>
+                        <p class="lng-large17"> Attach file</p>
                         <p id="name-file-attach3"></p>
                         <img  data-src ="img/attach-3.png" alt="download">
                     </div>
@@ -686,7 +686,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <input type="hidden" name="validation" value=""/>
                 <button type="submit" class=""
                         onclick="gtag('event', 'send-form3', {'event_category': '3-min-video'});">
-                    <span>Get A Quote</span></button>
+                    <span class="lng-large18">Get A Quote</span></button>
                 <script>
                     document.getElementById("premium").addEventListener('submit', function () {
                         document.cookie = "profile_viewer_uid=" + document.getElementsByName('client_name')[0].value + document.getElementsByName('cleint_email')[0].value + '@nti_sp@m';
@@ -812,8 +812,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <div class="section-head col-sm-12">
                 <div class="h4">
-                    <span>Voiceover</span><br>
-                    Artists
+                    <span class="lng-voice">Voiceover</span><br>
+                   <div class="lng-voice2">Artists</div> 
                 </div>
             </div>
 
@@ -823,23 +823,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="item bord first-bord">
-                                    <p>
+                                    <p class="lng-voice3">
                                         We work closely with both local and overseas voice talents.
                                         So if you are looking for native speakers of a unique language, we can help you.
                                         With our voice talents and studios, we can deliver fast turnaround time for our client’s recording sessions.
                                     </p>
                                     <a href="https://beemloop.com/voiceoverartists.html" class="h5 btn-calculate">
-                                        <span>Male Voiceover</span>
+                                        <span class="lng-voice4">Male Voiceover</span>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="item bord">
-                                    <p>
+                                    <p class="lng-voice5">
                                         With our wide selection of dedicated and professional voice-over talents coupled with our expertise in voice direction and production, rest assured that your final product will be quite simply a (pardon the pun) Suite Sound.
                                     </p>
                                     <a href="https://beemloop.com/voiceoverartists.html" class="h5 btn-calculate">
-                                        <span>FEMALE Voiceover</span>
+                                        <span class="lng-voice6">FEMALE Voiceover</span>
                                     </a>
                                 </div>
                             </div>
@@ -862,8 +862,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <div class="section-head col-sm-12">
                 <div class="h4">
-                    <span>Our</span><br>
-                    Creative Team
+                    <span class="lng-creative">Our</span><br>
+                    <div class="lng-creative1">Creative Team</div>
                 </div>
             </div>
 
@@ -1077,10 +1077,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="row">
 				<div class="section-head col-sm-12">
 					<div class="h4">
-					<span><a href="https://www.instagram.com/beemloop/" target="_blank">We are on</a></span><br>
-					<div class="insta"><a href="https://www.instagram.com/beemloop/" target="_blank">Instagram</a></div>
+					<span><a href="https://www.instagram.com/beemloop/" target="_blank" class="lng-inst">We are on</a></span><br>
+					<div class="insta"><a href="https://www.instagram.com/beemloop/" target="_blank" class="lng-inst1">Instagram</a></div>
 					</div>
-					<p style="margin-top: 25px;">Check out our <a href="https://www.instagram.com/beemloop/" target="_blank" style="color: #ff8dff;font-weight: bold;"> Instagram</a> page where we post our working moments, creative ideas and projects we work on.</p>
+					<p style="margin-top: 25px;" class="lng-inst2">Check out our <a href="https://www.instagram.com/beemloop/" target="_blank" style="color: #ff8dff;font-weight: bold;" class="lng-inst3"> Instagram</a> page where we post our working moments, creative ideas and projects we work on.</p>
 				</div>
 				<div id="instagram-feed-demo" class="instagram_feed" style="margin-top: -15px;"></div>
 			</div>
@@ -1122,19 +1122,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="row">
                             <div class="section-head col-sm-12">
                                 <div class="h4">
-                                    <span>Get</span><br>
-                                    In Touch
+                                    <span class="lng-form">Get</span><br>
+                                    <div class="lng-form1">In Touch</div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input id="form_name" type="text" name="name" placeholder="Name" required="required"
+                                    <input id="form_name" class="formname" type="text" name="name" placeholder="Name" required="required"
                                            pattern="^[a-zA-Z]+$">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input id="form_email" type="email" name="email" placeholder="Email"
+                                    <input id="form_email"  type="email" name="email" placeholder="Email"
                                            required="required">
                                 </div>
                             </div>
@@ -1154,7 +1154,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <div class="col-md-12 text-center">
                                 <button type="submit" class=""
                                         onclick="gtag('event', 'send-form-feedback', {'event_category': 'get-in-touch'});">
-                                    <span>Send Message</span></button>
+                                    <span class="lng-form3">Send Message</span></button>
                             </div>
                             <script>
                                 document.getElementById("contact-form").addEventListener('submit', function () {
@@ -1184,7 +1184,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="item" style="cursor: default;">
                         <span class="icon"><i class="icofont icofont-phone"></i></span>
                         <div class="cont">
-                            <div class="h6">Phone :</div>
+                            <div class="h6 lng-phone">Phone :</div>
                             <p>
                                 <a href="tel:+380979199095" rel="nofollow" >+38 (097) 919 90 95</a> <br>
                                 <a href="skype:buriachenkodima?chat" rel="nofollow" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Skype</a>/<a href="https://api.whatsapp.com/send?phone=380979199095&text=" rel="nofollow" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Whatsapp</a>/<a href="tg://resolve?domain=beemloop" rel="nofollow" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Telegram</a>
@@ -1199,8 +1199,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="item">
                         <span class="icon"><i class="icofont icofont-map"></i></span>
                         <div class="cont">
-                            <div class="h6">Address :</div>
-                            <p>Kievskaia st. 1, Zhytomyr<br> Ukraine</p>
+                            <div class="h6 lng-adr">Address :</div>
+                            <p class="lng-adr1">Kievskaia st. 1, Zhytomyr<br> Ukraine</p>
                         </div>
                     </div>
                 </div>
@@ -1211,7 +1211,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="item">
                         <span class="icon"><i class="icofont icofont-email"></i></span>
                         <div class="cont">
-                            <div class="h6">Email :</div>
+                            <div class="h6 lng-em">Email :</div>
                             <p>
                                 <a rel="nofollow"
                                    href="mailto:beemloop.com@gmail.com">beemloop.com@gmail.com</a>
@@ -1266,7 +1266,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     class="fab fa-telegram"></i> </a>
 
         </div>
-	<a class="subscribe" href="#subscribe-form" rel="nofollow" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';" style="color: #777; margin-bottom: 14px;">Subscribe to our newsletter</a>
+	<a class="subscribe lng-subs" href="#subscribe-form" rel="nofollow" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';" style="color: #777; margin-bottom: 14px;">Subscribe to our newsletter</a>
 
         <p>&copy; 2020 Rights Reserved.</p>
 
@@ -1277,7 +1277,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <!--===================== Start popup form ===================== -->
             <form id="subscribe-form" class="white-popup-block mfp-hide"  action="" method="POST"
                   enctype="multipart/form-data">
-                <div class="h4" style="color:#ff8dff;">SUBSCRIBE TO OUR<br>NEWSLETTER</div>
+                <div class="h4 lng-subs1" style="color:#ff8dff;">SUBSCRIBE TO OUR<br>NEWSLETTER</div>
 				<label>Email Address:*</label>
                 <input type="email" placeholder="" required id ="subscribe_cleint_email" name ="subscribe_cleint_email" />
 				<label>First Name:</label>
