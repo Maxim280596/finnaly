@@ -5,7 +5,7 @@ const langObj = {
     // },
     "home" : {
         "en": "Home",
-        "ua": "Головна",
+        "ua": "Головна сторінка",
     },
     "about" : {
         "en": "About",
@@ -29,28 +29,28 @@ const langObj = {
     },
     "consultation" : {
         "en" : "Get online consultation",
-        "ua" : "Онлайн консультація",
+        "ua" : "Отримати онлайн консультацію",
     },
     "we" : {
         "en" : "We explain ",
-        "ua" : "Ми пояснимо ",
+        "ua" : "Ми можемо",
     },
     "you" : {
         "en" : "your product",
-        "ua" : "Ваш продукт",
+        "ua" : "розповісти все про ваш",
     },
     
     "in" : {
         "en" : "in 90 seconds",
-        "ua" : "за 90 секунд",
+        "ua" : "продукт усього за 90 секунд",
     },
     "more" : {
         "en" : "More than 500 of our clients got their products explained using videos that we created.",
-        "ua" : "Більш ніж 500 наших клієнтів вже не потребують пояснення свого продукту.",
+        "ua" : "Більш ніж 500 наших клієнтів вже не розповідають про свій продукт.",
     },
     "br" : {
         "en" : "In just 90 seconds customer will know everything about your product.",
-        "ua" : "Анімаційні ролики роблять це замість них. Всього за 90 секунд клієнт дізнається все про ваш товар.",
+        "ua" : "Анімаційні ролики роблять це замість них. Всього за 90 секунд клієнт<br> дізнається все про ваш товар.",
     },
     "quote" : {
         "en" : "Get A Quote",
@@ -376,6 +376,96 @@ const langObj = {
         "en" : "SUBSCRIBE TO OUR NEWSLETTER",
         "ua" : "Підписатися на нашу розсилку"
     },
+    "founder" : {
+        "en" : "Dima",
+        "ua" : "Діма"
+    },
+    "ceo" : {
+        "en" : "Talli",
+        "ua" : "Таллі"
+    },
+    "project" : {
+        "en" : "Sergey",
+        "ua" : "Сергій"
+    },
+    "art" : {
+        "en" : "Nataliia",
+        "ua" : "Наталія"
+    },
+    "ill" : {
+        "en" : "Darina",
+        "ua" : "Дарина"
+    },
+    "mot" : {
+        "en" : "Artur",
+        "ua" : "Артур"
+    },
+    "hum" : {
+        "en" : "Nazar",
+        "ua" : "Назар"
+    },
+    "sen" : {
+        "en" : "Lilia",
+        "ua" : "Лілія"
+    },
+    "lead" : {
+        "en" : "Vlad",
+        "ua" : "Влад"
+    },
+    "des" : {
+        "en" : "Denis",
+        "ua" : "Денис"
+    },
+    "mot2" : {
+        "en" : "Vladimir",
+        "ua" : "Володимир"
+    },
+    "lead2" : {
+        "en" : "Anna",
+        "ua" : "Анна"
+    },
+    "lead3" : {
+        "en" : "Taras",
+        "ua" : "Тарас"
+    },
+    "lead4" : {
+        "en" : "Elizaveta",
+        "ua" : "Єлизавета"
+    },
+    "lead5" : {
+        "en" : "Elizaveta",
+        "ua" : "Єлизавета"
+    },
+    "lead6" : {
+        "en" : "Elena",
+        "ua" : "Олена"
+    },
+    "lead7" : {
+        "en" : "Stepan",
+        "ua" : "Степан"
+    },
+
+    "lead8" : {
+        "en" : "Aleksandr",
+        "ua" : "Олександр"
+    },
+
+    "lead9" : {
+        "en" : "Anna",
+        "ua" : "Анна"
+    },
+
+    "lead10" : {
+        "en" : "Veronika",
+        "ua" : "Вероніка"
+    },
+
+    "lead11" : {
+        "en" : "Viktoriia",
+        "ua" : "Вікторія"
+    },
+
+
 
 
 
