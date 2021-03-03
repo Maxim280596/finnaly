@@ -33,16 +33,17 @@ const langObj = {
     },
     "we" : {
         "en" : "We explain ",
-        "ua" : "Ми можемо",
+        "ua" : "Ми можемо розповісти все про ваш продукт усього за 90 секунд",
+        
     },
     "you" : {
         "en" : "your product",
-        "ua" : "розповісти все про ваш",
+        "ua" : "",
     },
     
     "in" : {
         "en" : "in 90 seconds",
-        "ua" : "продукт усього за 90 секунд",
+        "ua" : "",
     },
     "more" : {
         "en" : "More than 500 of our clients got their products explained using videos that we created.",
