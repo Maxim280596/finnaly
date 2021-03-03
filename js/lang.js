@@ -5,7 +5,7 @@ const langObj = {
     // },
     "home" : {
         "en": "Home",
-        "ua": "Головна сторінка",
+        "ua": "Головна",
     },
     "about" : {
         "en": "About",
@@ -29,20 +29,20 @@ const langObj = {
     },
     "consultation" : {
         "en" : "Get online consultation",
-        "ua" : "отримати онлайн консультацію",
+        "ua" : "Онлайн консультація",
     },
     "we" : {
         "en" : "We explain ",
-        "ua" : "Ми пояснимо Ваш продукт",
+        "ua" : "Ми пояснимо ",
     },
     "you" : {
         "en" : "your product",
-        "ua" : "",
+        "ua" : "Ваш продукт",
     },
     
     "in" : {
         "en" : "in 90 seconds",
-        "ua" : "усього за 90 секунд.",
+        "ua" : "за 90 секунд",
     },
     "more" : {
         "en" : "More than 500 of our clients got their products explained using videos that we created.",
@@ -50,7 +50,7 @@ const langObj = {
     },
     "br" : {
         "en" : "In just 90 seconds customer will know everything about your product.",
-        "ua" : "Анімаційні ролики роблять це замість них. Всього за 90 секунд Ви дізнаєтеся все про ваш товар.",
+        "ua" : "Анімаційні ролики роблять це замість них. Всього за 90 секунд клієнт дізнається все про ваш товар.",
     },
     "quote" : {
         "en" : "Get A Quote",
