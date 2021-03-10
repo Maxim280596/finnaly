@@ -47,7 +47,7 @@ const langObj = {
     },
     "more" : {
         "en" : "More than 500 of our clients got their products explained using videos that we created.",
-        "ua" : "Більш ніж 500 наших клієнтів вже не розповідають про свій продукт.",
+        "ua" : "Більше ніж 500 наших клієнтів вже не презентують свій продукт самостійно.",
     },
     "br" : {
         "en" : "In just 90 seconds customer will know everything about your product.",
@@ -55,7 +55,7 @@ const langObj = {
     },
     "quote" : {
         "en" : "Get A Quote",
-        "ua" : "Дізнатися вартість",
+        "ua" : "Дізнатися ціну",
     },
     "do" : {
         "en":"How do we",
@@ -99,7 +99,7 @@ const langObj = {
     },
     "option3" : {
         "en" : "Animatic",
-        "ua" : "Аніматика",
+        "ua" : "Аніматик",
     },
     "option4" : {
         "en" : "Simple Animation",
@@ -119,11 +119,11 @@ const langObj = {
     },
     "option8" : {
         "en" : "5 Revisions",
-        "ua" : "Внесення 5 правок",
+        "ua" : "5 турів правок",
     },
     "option9" : {
         "en" : "Get A Quote",
-        "ua" : "Дізнатися вартість",
+        "ua" : "Дізнатися ціну",
     },
     "option10" : {
         "en" : "Small Business",
@@ -147,7 +147,7 @@ const langObj = {
     },
     "option15" : {
         "en" : "Get A Quote",
-        "ua" : "Дізнатися вартість",
+        "ua" : "Дізнатися ціну",
     },
     "medium" : {
         "en" : "Medium Business",
@@ -167,7 +167,7 @@ const langObj = {
     },
     "medium4" : {
         "en" : "Animatic",
-        "ua" : "Аніматика",
+        "ua" : "Аніматик",
     },
     "medium5" : {
         "en" : "Custom Animation",
@@ -187,11 +187,11 @@ const langObj = {
     },
     "medium9" : {
         "en" : "7 Revisions",
-        "ua" : "Внесення 7 правок",
+        "ua" : "7 турів правок",
     },
     "medium10" : {
         "en" : "Get A Quote",
-        "ua" : "Дізнатися вартість",
+        "ua" : "Дізнатися ціну",
     },
     "medium11" : {
         "en" : "Medium Business",
@@ -215,7 +215,7 @@ const langObj = {
     },
     "medium16" : {
         "en" : "Get A Quote",
-        "ua" : "Дізнатися вартість",
+        "ua" : "Дізнатися ціну",
     },
 
     "large" : {
@@ -224,7 +224,7 @@ const langObj = {
     },
     "large1" : {
         "en" : "Outstanding Scriptwriting",
-        "ua" : "Написання  сценарію",
+        "ua" : "Написання сценарію",
     },
     "large2" : {
         "en" : "Storyboard",
@@ -236,11 +236,11 @@ const langObj = {
     },
     "large4" : {
         "en" : "Animatic",
-        "ua" : "Аніматика",
+        "ua" : "Аніматик",
     },
     "large5" : {
         "en" : "Complex Custom Animation",
-        "ua" : "Комплексна індивідуальна  анімація",
+        "ua" : "Комплексна індивідуальна анімація",
     },
     "large6" : {
         "en" : "Any Kind Logo Animation",
@@ -256,7 +256,7 @@ const langObj = {
     },
     "large9" : {
         "en" : "10 Revisions",
-        "ua" : "Внесення 10 правок",
+        "ua" : "10 турів правок",
     },
     "large10" : {
         "en" : "Art Direction",
@@ -268,7 +268,7 @@ const langObj = {
     },
     "large12" : {
         "en" : "GET A QUOTE",
-        "ua" : "Дізнатися вартість",
+        "ua" : "Дізнатися ціну",
     },
     "large13" : {
         "en" : "Large Business",
@@ -292,7 +292,7 @@ const langObj = {
     },
     "large18" : {
         "en" : "Get A Quote",
-        "ua" : "Дізнатися вартість",
+        "ua" : "Дізнатися ціну",
     },
 
     "voice" : {
