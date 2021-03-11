@@ -2033,7 +2033,7 @@ img.lazy {
 }
 
 .clients {
-    margin-top: -80px;
+    margin-top: -70px;
     padding: 55px 0;
 }
 
@@ -2050,6 +2050,10 @@ img.lazy {
     display: flex;
     justify-content: center;
 }
+
+
+
+
 
 .clients .brand:hover {
     opacity: 1;
