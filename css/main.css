@@ -3073,6 +3073,9 @@ transform: translateY(70px);
     animation-delay: 1.2s;
 
 }
+.kler {
+    margin-top: 50px;
+}
 .btn-calculate span{
     position: relative;
     z-index: 2;
@@ -3138,6 +3141,9 @@ transform: translateY(70px);
     #portfolio_video iframe {
         width: 930px;
         height: 523px;
+    }
+    .kler {
+        margin-top: 30px;
     }
 
     .prev img, .next img {
