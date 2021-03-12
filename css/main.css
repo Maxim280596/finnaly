@@ -413,7 +413,8 @@ a:hover {
     color: #eee;
     word-spacing: 2px;
     -webkit-animation-delay: 1s;
-    animation-delay: 1s
+    animation-delay: 1s;
+    padding: 0 120px;
 }
 .non-visible {
     display: none;
@@ -2033,7 +2034,7 @@ img.lazy {
 }
 
 .clients {
-    margin-top: -70px;
+    margin-top: -90px;
     padding: 55px 0;
 }
 
@@ -2064,7 +2065,8 @@ img.lazy {
 }
 
 .clients .brand img {
-    width: 60%
+    width: 60%;
+    
 }
 
 .contact .map {
@@ -3173,7 +3175,7 @@ transform: translateY(70px);
 
     .header .caption p {
         font-size: 24px;
-        padding: 0 145px
+        padding: 0 100px
 
     }
     .header .caption .butn {
@@ -3251,7 +3253,7 @@ transform: translateY(70px);
     .navbar .modal-link {
         position: absolute;
         top: 27px;
-        left: 45%;
+        left: 55%;
     }
 
     .navbar .navbar-collapse {
@@ -3290,7 +3292,7 @@ transform: translateY(70px);
 
 
     .non-visible {
-        display: block;
+        display: none;
     }
 
 
@@ -3413,7 +3415,7 @@ transform: translateY(70px);
     }
 
     .navbar .modal-link {
-        left: 35%;
+        left: 45%;
     }
 
     .header .caption .h3 {
@@ -3501,22 +3503,26 @@ transform: translateY(70px);
 @media (max-width: 580px) {
 
     .navbar .modal-link {
-        left: 15%;
+        left: 25%;
     }
 
 
 
     .clients {
         margin-top: -80px;
-        padding: 0
+        
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+        padding-right: 5px;
     }
 
     .clients .brand {
-        padding: 20px
+        padding: 20px 0px
     }
 
     .clients .brand img {
-        width: 40%
+        width: 50%
     }
 
     .contact .map {
@@ -3782,11 +3788,11 @@ transform: translateY(70px);
 @media only screen and (max-width: 375px) {
 
     .navbar .modal-link {
-        left: 18%;
+        left: 20%;
     }
 
     .modal-link span {
-        font-size: 9px;
+        font-size: 11px;
     }
 
 
@@ -3857,8 +3863,8 @@ transform: translateY(70px);
 @media only screen and (max-width: 320px) {
 
     .navbar .modal-link {
-        left: 19%;
-        padding: 5px 5px;
+        left: 25%;
+        
     }
 
 
@@ -3976,6 +3982,11 @@ font-weight: 700
  .header .container {
      margin-top: -100px;
  }
+ .cd-headline b.is-visible {
+    opacity: 1;
+    font-weight: 700
+}
+
 }
 
 .fixed-calculator {
@@ -4249,9 +4260,8 @@ a.gallery__item__link:hover{
         margin-right: 10px;
     }
 .modal-link {
-    margin-left: 5px;
-    margin-right: 0;
-
+    margin-left: 10px;
+    margin-right: 15px;
 }
 
 

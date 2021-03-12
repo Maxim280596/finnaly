@@ -5,7 +5,7 @@ const langObj = {
     // },
     home: {
         en: 'Home',
-        ua: 'Головна сторінка',
+        ua: 'Головна',
     },
     about: {
         en: 'About',
@@ -29,7 +29,7 @@ const langObj = {
     },
     consultation: {
         en: 'Get online consultation',
-        ua: 'Отримати онлайн консультацію',
+        ua: 'Онлайн консультація',
     },
     we: {
         en: 'We explain ',
@@ -46,15 +46,13 @@ const langObj = {
     },
     more: {
         en:
-            'More than 500 of our clients got their products explained using videos that we created.',
+            'More than 500 of our clients got their products explained using videos that we created. In just 90 seconds customer will know everything about your product.',
         ua:
-            'Більше ніж 500 наших клієнтів вже не презентують свій продукт самостійно.',
+            'Більше ніж 500 наших клієнтів вже не презентують свій продукт самостійно. Анімаційні ролики роблять це замість них. Всього за 90 секунд клієнт<br> дізнається все про ваш товар.',
     },
     br: {
-        en:
-            'In just 90 seconds customer will know everything about your product.',
-        ua:
-            'Анімаційні ролики роблять це замість них. Всього за 90 секунд клієнт<br> дізнається все про ваш товар.',
+        en: '',
+        ua: '',
     },
     quote: {
         en: 'Get A Quote',

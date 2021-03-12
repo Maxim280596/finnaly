@@ -203,15 +203,15 @@ $(window).on('load', function () {
     });
 
     // ---Instagram Feed --------------------------------------------------------------
-    $.instagramFeed({
-        username: 'beemloop',
-        container: '#instagram-feed-demo',
-        items: 3,
-        display_profile: false,
-        display_biography: false,
-        display_igtv: false,
-        styling: false,
-    });
+    // $.instagramFeed({
+    //     username: 'beemloop',
+    //     container: '#instagram-feed-demo',
+    //     items: 3,
+    //     display_profile: false,
+    //     display_biography: false,
+    //     display_igtv: true,
+    //     styling: false,
+    // });
 });
 
 function hideAndVisible(blockName) {
@@ -264,116 +264,116 @@ function hideAndVisible(blockName) {
 }
 
 // Google Maps
-if ($('.map-canvas').length > 0) {
-    setTimeout(function () {
-        initializeMap();
-    }, 500);
-}
+// if ($('.map-canvas').length > 0) {
+//     setTimeout(function () {
+//         initializeMap();
+//     }, 500);
+// }
 
 // Google Map
-function initializeMap() {
-    var myCenter = new google.maps.LatLng(50.255656, 28.658959);
-    var image = 'img/location-marker.png';
-    var marker = new google.maps.Marker({
-        position: myCenter,
-        title: 'Beemloop office',
-        icon: image,
-    });
-    var mySumy = new google.maps.LatLng(50.9138881, 34.8134126);
-    var marker2 = new google.maps.Marker({
-        position: mySumy,
-        title: 'Beemloop office',
-        icon: image,
-        map: map,
-    });
-    var myOdessa = new google.maps.LatLng(46.460123, 30.5717051);
-    var marker3 = new google.maps.Marker({
-        position: myOdessa,
-        title: 'Beemloop office',
-        icon: image,
-        map: map,
-    });
-    var myLviv = new google.maps.LatLng(49.8327787, 23.9421961);
-    var marker4 = new google.maps.Marker({
-        position: myLviv,
-        title: 'Beemloop office',
-        icon: image,
-        map: map,
-    });
-    var myKhmelnytskyi = new google.maps.LatLng(49.4104673, 26.8551758);
-    var marker5 = new google.maps.Marker({
-        position: myKhmelnytskyi,
-        title: 'Beemloop office',
-        icon: image,
-        map: map,
-    });
+// function initializeMap() {
+//     var myCenter = new google.maps.LatLng(50.255656, 28.658959);
+//     var image = 'img/location-marker.png';
+//     var marker = new google.maps.Marker({
+//         position: myCenter,
+//         title: 'Beemloop office',
+//         icon: image,
+//     });
+//     var mySumy = new google.maps.LatLng(50.9138881, 34.8134126);
+//     var marker2 = new google.maps.Marker({
+//         position: mySumy,
+//         title: 'Beemloop office',
+//         icon: image,
+//         map: map,
+//     });
+//     var myOdessa = new google.maps.LatLng(46.460123, 30.5717051);
+//     var marker3 = new google.maps.Marker({
+//         position: myOdessa,
+//         title: 'Beemloop office',
+//         icon: image,
+//         map: map,
+//     });
+//     var myLviv = new google.maps.LatLng(49.8327787, 23.9421961);
+//     var marker4 = new google.maps.Marker({
+//         position: myLviv,
+//         title: 'Beemloop office',
+//         icon: image,
+//         map: map,
+//     });
+//     var myKhmelnytskyi = new google.maps.LatLng(49.4104673, 26.8551758);
+//     var marker5 = new google.maps.Marker({
+//         position: myKhmelnytskyi,
+//         title: 'Beemloop office',
+//         icon: image,
+//         map: map,
+//     });
 
-    var mapProp = {
-        center: myCenter,
-        zoom: 5,
-        draggable: true,
-        scrollwheel: false,
-        disableDefaultUI: true,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-    };
+//     var mapProp = {
+//         center: myCenter,
+//         zoom: 5,
+//         draggable: true,
+//         scrollwheel: false,
+//         disableDefaultUI: true,
+//         mapTypeId: google.maps.MapTypeId.ROADMAP,
+//     };
 
-    var contentString =
-        '<div><b>Beemloop office</b><br> Zhytomyr, Ukraine</div>';
-    var infowindow = new google.maps.InfoWindow({
-        content: contentString,
-    });
-    var contentString2 = '<div><b>Beemloop office</b><br> Sumy, Ukraine</div>';
-    var infowindow2 = new google.maps.InfoWindow({
-        content: contentString2,
-    });
-    var contentString3 =
-        '<div><b>Beemloop office</b><br> Odessa, Ukraine</div>';
-    var infowindow3 = new google.maps.InfoWindow({
-        content: contentString3,
-    });
-    var contentString4 = '<div><b>Beemloop office</b><br> Lviv, Ukraine</div>';
-    var infowindow4 = new google.maps.InfoWindow({
-        content: contentString4,
-    });
-    var contentString5 =
-        '<div><b>Beemloop office</b><br> Khmelnytskyi, Ukraine</div>';
-    var infowindow5 = new google.maps.InfoWindow({
-        content: contentString5,
-    });
+//     var contentString =
+//         '<div><b>Beemloop office</b><br> Zhytomyr, Ukraine</div>';
+//     var infowindow = new google.maps.InfoWindow({
+//         content: contentString,
+//     });
+//     var contentString2 = '<div><b>Beemloop office</b><br> Sumy, Ukraine</div>';
+//     var infowindow2 = new google.maps.InfoWindow({
+//         content: contentString2,
+//     });
+//     var contentString3 =
+//         '<div><b>Beemloop office</b><br> Odessa, Ukraine</div>';
+//     var infowindow3 = new google.maps.InfoWindow({
+//         content: contentString3,
+//     });
+//     var contentString4 = '<div><b>Beemloop office</b><br> Lviv, Ukraine</div>';
+//     var infowindow4 = new google.maps.InfoWindow({
+//         content: contentString4,
+//     });
+//     var contentString5 =
+//         '<div><b>Beemloop office</b><br> Khmelnytskyi, Ukraine</div>';
+//     var infowindow5 = new google.maps.InfoWindow({
+//         content: contentString5,
+//     });
 
-    var map = new google.maps.Map(
-        document.getElementById('map-canvas'),
-        mapProp
-    );
-    map.panBy(20, 20); // (x,y)
-    marker.setMap(map);
-    marker2.setMap(map);
-    marker3.setMap(map);
-    marker4.setMap(map);
-    marker5.setMap(map);
+//     var map = new google.maps.Map(
+//         document.getElementById('map-canvas'),
+//         mapProp
+//     );
+//     map.panBy(20, 20); // (x,y)
+//     marker.setMap(map);
+//     marker2.setMap(map);
+//     marker3.setMap(map);
+//     marker4.setMap(map);
+//     marker5.setMap(map);
 
-    google.maps.event.addListener(marker, 'click', function () {
-        infowindow.setContent(contentString);
-        infowindow.open(map, marker);
-    });
-    google.maps.event.addListener(marker2, 'click', function () {
-        infowindow2.setContent(contentString2);
-        infowindow2.open(map, marker2);
-    });
-    google.maps.event.addListener(marker3, 'click', function () {
-        infowindow3.setContent(contentString3);
-        infowindow3.open(map, marker3);
-    });
-    google.maps.event.addListener(marker4, 'click', function () {
-        infowindow4.setContent(contentString4);
-        infowindow4.open(map, marker4);
-    });
+//     google.maps.event.addListener(marker, 'click', function () {
+//         infowindow.setContent(contentString);
+//         infowindow.open(map, marker);
+//     });
+//     google.maps.event.addListener(marker2, 'click', function () {
+//         infowindow2.setContent(contentString2);
+//         infowindow2.open(map, marker2);
+//     });
+//     google.maps.event.addListener(marker3, 'click', function () {
+//         infowindow3.setContent(contentString3);
+//         infowindow3.open(map, marker3);
+//     });
+//     google.maps.event.addListener(marker4, 'click', function () {
+//         infowindow4.setContent(contentString4);
+//         infowindow4.open(map, marker4);
+//     });
 
-    google.maps.event.addListener(marker5, 'click', function () {
-        infowindow5.setContent(contentString5);
-        infowindow5.open(map, marker5);
-    });
-}
+//     google.maps.event.addListener(marker5, 'click', function () {
+//         infowindow5.setContent(contentString5);
+//         infowindow5.open(map, marker5);
+//     });
+// }
 
 $(function () {
     $('.lazy').lazy();
